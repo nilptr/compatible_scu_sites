@@ -1,0 +1,16 @@
+{
+  "name": "scu_jwc",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://zhjw.scu.edu.cn/*",
+        "http://202.115.47.141/*"
+      ],
+      "js": ["script.js"],
+      "run_at": "document_end",
+      "all_frames": true
+    }
+  ],
+  "manifest_version": 2
+}
