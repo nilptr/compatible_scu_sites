@@ -1,5 +1,5 @@
 {
-  "name": "scu_jwc",
+  "name": "compatible_scu_sites",
   "version": "0.0.1",
   "content_scripts": [
     {
