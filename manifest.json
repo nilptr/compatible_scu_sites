@@ -7,9 +7,16 @@
         "http://zhjw.scu.edu.cn/*",
         "http://202.115.47.141/*"
       ],
-      "js": ["script.js"],
+      "js": ["zhjw.js"],
       "run_at": "document_end",
       "all_frames": true
+    },
+    {
+      "matches": [
+        "http://cc.scu.edu.cn/*"
+      ],
+      "js": ["cc.js"],
+      "run_at": "document_end"
     }
   ],
   "manifest_version": 2
